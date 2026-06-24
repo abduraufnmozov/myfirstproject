@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h1{
-    color: yellow;
-    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, #4eacff 0%, #00f2fe 100%);
+    
 }
 h2{
     color: green;
